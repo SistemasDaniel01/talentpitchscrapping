@@ -335,7 +335,7 @@ df = pd.DataFrame({'titulo': titulos,'links':links})
 #print(df1)
 
 df1.to_excel("comunidades.xlsx")
-'''
+
 df.to_csv('links.csv',index=False)
 
 
@@ -416,8 +416,7 @@ dias = [str + "viernes 23 Abril 2022" + '\n' + '\n' + noti1,str+ "Sabado 24 Abri
         str+ "viernes 14 Mayo 2022" + '\n' + '\n' + noti22,str+ "Sabado 15 Mayo 2022" + '\n' + '\n' + noti23,str+ "Domingo 16 Mayo 2022" + '\n' + '\n' + noti24,
         str+ "Lunes 17 Mayo 2022" + '\n' + '\n' + noti25,str+ "Martes 18 Mayo 2022" + '\n' + '\n' + noti26,str+ "Miercoles 19 Mayo 2022" + '\n' + '\n' + noti27,
         str+ "Jueves 20 Mayo 2022" + '\n' + '\n' + noti28,str+ "viernes 21 Mayo 2022" + '\n' + '\n' + noti29,str+ "Sabado 22 Mayo 2022" + '\n' + '\n' + noti30]
-'''
-'''
+
 countdias = 0
 while True:
     time.sleep(10) #86400 seconds in a day
@@ -429,4 +428,3 @@ while True:
     countdias = countdias + 1    
 
 
-'''
