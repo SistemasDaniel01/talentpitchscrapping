@@ -419,7 +419,7 @@ dias = [str + "viernes 23 Abril 2022" + '\n' + '\n' + noti1,str+ "Sabado 24 Abri
 
 countdias = 0
 while True:
-    time.sleep(10) #86400 seconds in a day
+    time.sleep(86400)
     pwk.sendwhatmsg_instantly("+573043840402",dias[countdias])
     time.sleep(2)
     pyautogui.click()
